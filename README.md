@@ -24,24 +24,18 @@ The highest-scoring game is recorded, and once all trials have been completed it
 If this folder does not exist, it will be created, and if there are files already in it they will be erased.
 
 There are six different AIs currently.  Their name and a brief overview follows (More detail on their functionality can be found on their respective wiki pages):
-* ChaoticAI
-
+* ChaoticAI  
   This AI makes decisions at random.
-* ClaustrophobicAI
+* ClaustrophobicAI  
   This AI will turn toward the food if it has direct line-of-sight from the snake's head.
-  
   Otherwise, it tries to stay away from obstacles (the outer wall and its own tail).
-* AgoraphobicAI
-
+* AgoraphobicAI  
   This AI will turn toward the food if it has direct line-of-sight from the snake's head.
   Otherwise, it tries to stay as close as possible to obstacles (the outer wall and its own tail).
-* PeekAI
-
+* PeekAI  
   This AI will turn toward the food if it has direct line-of-sight from the snake's head.
   Otherwise, it will only turn if it is about to run into something in the very next step, in which case it will turn in whichever direction has the most empty space.
-* ShortcutAI
-
+* ShortcutAI  
   This AI turns toward the adjacent grid space that is closest to the food.
-* BestFirstAI
-
+* BestFirstAI  
   This AI performs a Best-First Search to find a path to the food.
