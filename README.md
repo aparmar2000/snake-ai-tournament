@@ -27,13 +27,13 @@ There are six different AIs currently.  Their name and a brief overview follows 
 * ChaoticAI  
   This AI makes decisions at random.
 * ClaustrophobicAI  
-  This AI will turn toward the food if it has direct line-of-sight from the snake's head.
+  This AI will turn toward the food if it has direct line-of-sight from the snake's head.  
   Otherwise, it tries to stay away from obstacles (the outer wall and its own tail).
 * AgoraphobicAI  
-  This AI will turn toward the food if it has direct line-of-sight from the snake's head.
+  This AI will turn toward the food if it has direct line-of-sight from the snake's head.  
   Otherwise, it tries to stay as close as possible to obstacles (the outer wall and its own tail).
 * PeekAI  
-  This AI will turn toward the food if it has direct line-of-sight from the snake's head.
+  This AI will turn toward the food if it has direct line-of-sight from the snake's head.  
   Otherwise, it will only turn if it is about to run into something in the very next step, in which case it will turn in whichever direction has the most empty space.
 * ShortcutAI  
   This AI turns toward the adjacent grid space that is closest to the food.
